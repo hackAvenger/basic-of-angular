@@ -1,0 +1,31 @@
+<h1>
+    Add Stock
+</h1>
+<div mat-dilog-content>
+    <form [formGroup]="productForm">
+        <mat-form-field appearance="outline">
+            <mat-label>Product Name</mat-label>
+            <input matInput placeholder="Eg:Nokia" formControlName="productName">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Choose Brand</mat-label>
+            <mat-select formControlName="brandName">
+             <mat-option  *ngFor="let brand of brands" [value]="brands">
+                {{brand}}
+             </mat-option>
+            </mat-select>
+          </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>IMEI No.</mat-label>
+            <input type="" matInput placeholder="Eg:123456789012222" formControlName="imei">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Product Price</mat-label>
+            <input type="" matInput placeholder="Eg: 1000" formControlName="productPrice">
+        </mat-form-field>
+    </form>
+</div>
+<div style="margin-left: 35%;">
+    <button mat-raised-button color="warn" mat-dialog-close>Cancle</button>
+    <button mat-raised-button color="primary" style="margin-left: 15px;" (click)="saveProductData()">{{saveOrEdit}}</button>
+</div>

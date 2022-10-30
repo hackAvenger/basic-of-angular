@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "productName": "iPhone 13",
+      "brandName": "Apple",
+      "imei": "123456789",
+      "productPrice": "85000",
+      "id": 2
+    },
+    {
+      "productName": "iPhone 14 plus",
+      "brandName": "Apple",
+      "imei": "123456789",
+      "productPrice": "90000",
+      "id": 3
+    },
+    {
+      "productName": "S22 Utra",
+      "brandName": "Samsung",
+      "imei": "123456789",
+      "productPrice": "80000",
+      "id": 4
+    },
+    {
+      "productName": "V15 Pro",
+      "brandName": "Vivo",
+      "imei": "123456789",
+      "productPrice": "85000",
+      "id": 5
+    },
+    {
+      "productName": "V13 Pro",
+      "brandName": "Vivo",
+      "imei": "123456789",
+      "productPrice": "90000",
+      "id": 7
+    },
+    {
+      "productName": "Reno 8",
+      "brandName": "Oppo",
+      "imei": "123456789",
+      "productPrice": "80000",
+      "id": 8
+    },
+    {
+      "productName": "iPhone SE",
+      "brandName": "",
+      "imei": "1234567890",
+      "productPrice": "35000",
+      "id": 9
+    }
+  ]
+}
