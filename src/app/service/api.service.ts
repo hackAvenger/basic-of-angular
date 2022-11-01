@@ -6,28 +6,31 @@ import { Injectable } from '@angular/core';
 })
 export class ApiService {
   constructor(private Http: HttpClient) { }
+  prodBase:String="https://json-server-mat-ui.herokuapp.com/"//production
+  localBase:String="https://json-server-mat-ui.herokuapp.com/"
+
   postDataToServer(data: any, url: String) {
-    return this.Http.post<any>("http://localhost:3000/" + url + "", data);
+    return this.Http.post<any>("https://json-server-mat-ui.herokuapp.com/" + url + "", data);
   }
 
   getProduct(url: String) {
-    return this.Http.get<any>("http://localhost:3000/" + url);
+    return this.Http.get<any>("https://json-server-mat-ui.herokuapp.com/" + url);
   }
 
   deleteProduct(url: String, id: number) {
-    return this.Http.delete<any>("http://localhost:3000/" + url + "/" + id);
+    return this.Http.delete<any>("https://json-server-mat-ui.herokuapp.com/" + url + "/" + id);
   }
 
   updateProduct(url: String, id: number, data: any) {
-    return this.Http.put<any>("http://localhost:3000/" + url+"/"+id, data);
+    return this.Http.put<any>("https://json-server-mat-ui.herokuapp.com/" + url+"/"+id, data);
   }
 
   getBrands(url: String) {
-    return this.Http.get<any>("http://localhost:3000/" + url);
+    return this.Http.get<any>("https://json-server-mat-ui.herokuapp.com/" + url);
   }
 
   getUser(url: String) {
-    return this.Http.get<any>("http://localhost:3000/" + url);
+    return this.Http.get<any>("https://json-server-mat-ui.herokuapp.com/" + url);
   }
 
 }
