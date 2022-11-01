@@ -13,7 +13,7 @@ import { RouterLinkWithHref } from '@angular/router';
 })
 export class EmployeeComponent implements OnInit {
 
-  displayedColumns = ['id', 'name', 'email', 'status' ,'type','action'];
+  displayedColumns = ['id', 'name', 'email', 'contacts','status' ,'type','action','details'];
   dataSource: any;
   constructor(public apiService: ApiService) { }
 

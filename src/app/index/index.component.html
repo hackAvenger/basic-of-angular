@@ -1,1 +1,13 @@
-<p>index works!</p>
+<mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+    </button>
+    <span> Angular Material UI </span>
+    <!-- <span class="example-spacer"></span> -->
+    <nav style="margin-left: 23%;">
+        <button mat-button routerLink="/stocks">Stocks</button>
+        <button mat-button routerLink="/emplolyee">Employee</button>
+        <button mat-button>Latest</button>
+    </nav>
+</mat-toolbar>
+<router-outlet></router-outlet>

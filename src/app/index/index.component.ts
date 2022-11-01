@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { StocksComponent } from '../stocks/stocks.component';
 
 @Component({
   selector: 'app-index',
@@ -8,8 +9,14 @@ import { Component, OnInit } from '@angular/core';
 export class IndexComponent implements OnInit {
 
   constructor() { }
-
+  isDisableStockAddButton = false;
   ngOnInit(): void {
+
   }
 
+  onclickStock(par:boolean) {
+    this.isDisableStockAddButton = par;
+  }
 }
+
+

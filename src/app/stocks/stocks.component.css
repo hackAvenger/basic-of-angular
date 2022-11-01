@@ -19,3 +19,7 @@
   td, th {
     width: 20%;
   }
+
+  #dilog{
+    position: relative;
+}

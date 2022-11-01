@@ -22,6 +22,7 @@ import { EmployeeComponent } from './employee/employee.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { IndexComponent } from './index/index.component';
 import { StocksComponent } from './stocks/stocks.component';
+import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
 
 
 
@@ -32,7 +33,8 @@ import { StocksComponent } from './stocks/stocks.component';
     EmployeeComponent,
     PageNotFoundComponent,
     IndexComponent,
-    StocksComponent
+    StocksComponent,
+    EmployeeDetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -51,7 +53,7 @@ import { StocksComponent } from './stocks/stocks.component';
     HttpClientModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
 
   ],
   providers: [],
