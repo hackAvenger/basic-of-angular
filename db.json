@@ -4,7 +4,7 @@
       "productName": "iPhone 13",
       "brandName": "Apple",
       "imei": "123456789",
-      "productPrice": "85000",
+      "productPrice": "85501",
       "id": 2
     },
     {
@@ -48,6 +48,115 @@
       "imei": "1234567890",
       "productPrice": "35000",
       "id": 9
+    },
+    {
+      "productName": "Nokia",
+      "imei": "1234567890",
+      "productPrice": "10000",
+      "id": 10
+    },
+    {
+      "productName": "iPhone 11",
+      "brandName": "Apple",
+      "imei": "1234567890",
+      "productPrice": "32000",
+      "id": 11
+    },
+    {
+      "productName": "iPhone 13",
+      "brandName": "Apple",
+      "imei": "123456789",
+      "productPrice": "85000",
+      "id": 12
+    },
+    {
+      "productName": "iPhone 6",
+      "brandName": "Apple",
+      "imei": "1234567876",
+      "productPrice": "23000",
+      "id": 13
+    }
+  ],
+  "users": [
+    {
+      "emailId": "vikash.gupta@credable.in",
+      "password": "password",
+      "userName": "vikash Gupta",
+      "userType": "VPE",
+      "status": "ACTIVE",
+      "id": 1
+    },
+    {
+      "emailId": "shubham.chug@credable.in",
+      "password": "password",
+      "userName": "Shubham Chug",
+      "userType": "VPE",
+      "status": "ACTIVE",
+      "id": 2
+    },
+    {
+      "emailId": "vikash.gupta@credable.in",
+      "password": "password",
+      "userName": "vikash Gupta",
+      "userType": "VPE",
+      "status": "ACTIVE",
+      "id": 3
+    },
+    {
+      "emailId": "shubham.chug@credable.in",
+      "password": "password",
+      "userName": "Shubham Chug",
+      "userType": "VPE",
+      "status": "ACTIVE",
+      "id": 4
+    },
+    {
+      "emailId": "vikash.gupta@credable.in",
+      "password": "password",
+      "userName": "vikash Gupta",
+      "userType": "VPE",
+      "status": "ACTIVE",
+      "id": 5
+    },
+    {
+      "emailId": "shubham.chug@credable.in",
+      "password": "password",
+      "userName": "Shubham Chug",
+      "userType": "VPE",
+      "status": "ACTIVE",
+      "id": 6
+    },
+    {
+      "emailId": "vikash.gupta@credable.in",
+      "password": "password",
+      "userName": "vikash Gupta",
+      "userType": "VPE",
+      "status": "ACTIVE",
+      "id": 7
+    },
+    {
+      "emailId": "shubham.chug@credable.in",
+      "password": "password",
+      "userName": "Shubham Chug",
+      "userType": "VPE",
+      "status": "ACTIVE",
+      "id": 8
+    },
+    {
+      "emailId": "vikash.gupta@credable.in",
+      "password": "password",
+      "userName": "vikash Gupta",
+      "userType": "VPE",
+      "status": "ACTIVE",
+      "id": 9
+    },
+    {
+      "emailId": "shubham.chug@credable.in",
+      "password": "password",
+      "userName": "Shubham Chug",
+      "userType": "VPE",
+      "status": "ACTIVE",
+      "id": 10
     }
   ]
 }

@@ -1,4 +1,4 @@
-<h1>
+<h1 style="margin: 3%;">
     Add Stock
 </h1>
 <div mat-dilog-content>
@@ -10,7 +10,7 @@
         <mat-form-field appearance="outline">
             <mat-label>Choose Brand</mat-label>
             <mat-select formControlName="brandName">
-             <mat-option  *ngFor="let brand of brands" [value]="brands">
+             <mat-option  *ngFor="let brand of brands" [value]="brand">
                 {{brand}}
              </mat-option>
             </mat-select>
@@ -26,6 +26,6 @@
     </form>
 </div>
 <div style="margin-left: 35%;">
-    <button mat-raised-button color="warn" mat-dialog-close>Cancle</button>
+    <button mat-raised-button color="warn" mat-dialog-close>cancle</button>
     <button mat-raised-button color="primary" style="margin-left: 15px;" (click)="saveProductData()">{{saveOrEdit}}</button>
 </div>

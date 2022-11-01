@@ -10,15 +10,23 @@ export class ApiService {
     return this.Http.post<any>("http://localhost:3000/" + url + "", data);
   }
 
-  getProduct(url:String) {
+  getProduct(url: String) {
     return this.Http.get<any>("http://localhost:3000/" + url);
   }
 
-  deleteProduct(url:String,id:number) {
-    return this.Http.delete<any>("http://localhost:3000/" + url+"/"+id);
+  deleteProduct(url: String, id: number) {
+    return this.Http.delete<any>("http://localhost:3000/" + url + "/" + id);
   }
 
-  getBrands(url:String){
+  updateProduct(url: String, id: number, data: any) {
+    return this.Http.put<any>("http://localhost:3000/" + url+"/"+id, data);
+  }
+
+  getBrands(url: String) {
+    return this.Http.get<any>("http://localhost:3000/" + url);
+  }
+
+  getUser(url: String) {
     return this.Http.get<any>("http://localhost:3000/" + url);
   }
 

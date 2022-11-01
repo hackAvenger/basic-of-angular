@@ -17,13 +17,22 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { EmployeeComponent } from './employee/employee.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { IndexComponent } from './index/index.component';
+import { StocksComponent } from './stocks/stocks.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    DilogComponent
+    DilogComponent,
+    EmployeeComponent,
+    PageNotFoundComponent,
+    IndexComponent,
+    StocksComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +50,8 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     FormsModule,
     HttpClientModule,
     MatTableModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatSlideToggleModule
 
   ],
   providers: [],
