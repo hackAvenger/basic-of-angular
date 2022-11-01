@@ -160,6 +160,15 @@
       "status": "ACTIVE",
       "contacts":"987654321",
       "id": 10
+    },
+    {
+      "emailId": "shubham.chug@credable.in",
+      "password": "password",
+      "userName": "Shubham Chug",
+      "userType": "VPE",
+      "status": "ACTIVE",
+      "contacts":"987654321",
+      "id": 11
     }
   ]
 }
